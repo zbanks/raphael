@@ -1374,7 +1374,7 @@ Raphael = (function () {
                 cy = toFloat(deg[2]);
             }
             deg = toFloat(deg[0]);
-            if (cx != null) {
+            if (cx !== false) {
                 this._.rt.deg = deg;
             } else {
                 this._.rt.deg += deg;
